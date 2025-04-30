@@ -65,35 +65,5 @@ This will start the app and open it in your default web browser. If it doesn't o
 2. Enter the parent password (default: parent123)
 3. View analytics and insights about your child's learning progress
 
-## Project Structure
 
-```
-smartsort-kids/
-├── app.py                 # Main application entry point
-├── child_game.py          # Child game interface and logic
-├── parent_dashboard.py    # Parent analytics dashboard
-├── game_data.py           # Food categories and game content
-├── utils.py               # Utility functions
-├── data/                  # Directory for storing session data
-└── requirements.txt       # Required Python packages
-```
 
-## Customization
-
-You can customize the game by modifying the `game_data.py` file:
-- Add or remove food items from categories
-- Adjust level descriptions
-- Edit educational fun facts
-
-## Security Note
-
-The parent password system in this demo is extremely simple (hardcoded as "parent123"). In a production environment, you would want to implement proper authentication.
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Acknowledgements
-
-- Built with [Streamlit](https://streamlit.io/)
-- Food emoji graphics from standard Unicode emoji
